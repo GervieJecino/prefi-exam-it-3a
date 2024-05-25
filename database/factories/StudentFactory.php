@@ -26,13 +26,13 @@ class StudentFactory
 
     private static function generateFirstname()
     {
-        $firstnames = ['John', 'Jane', 'Michael', 'Emma', 'David', 'Sarah', 'Daniel', 'Emily', 'Christopher', 'Olivia'];
+        $firstnames = ['Juan', 'Maria', 'Jose', 'Ana', 'Pedro', 'Rosa', 'Miguel', 'Sofia', 'Carlos', 'Carmen'];
         return $firstnames[array_rand($firstnames)];
     }
 
     private static function generateLastname()
     {
-        $lastnames = ['Smith', 'Johnson', 'Williams', 'Brown', 'Jones', 'Miller', 'Davis', 'Garcia', 'Rodriguez', 'Wilson'];
+        $lastnames = ['Santos', 'Reyes', 'Cruz', 'Garcia', 'Torres', 'Lopez', 'Morales', 'Flores', 'Delos Santos', 'Castillo'];
         return $lastnames[array_rand($lastnames)];
     }
 
